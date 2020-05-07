@@ -18,7 +18,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url=<heroku app url> + TOKEN)
+    bot.set_webhook(url=https://rhisuminspotify.herokuapp.com + TOKEN)
     return "!"
 
 
